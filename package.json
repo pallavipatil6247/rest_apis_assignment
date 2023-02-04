@@ -1,0 +1,35 @@
+{
+  "name": "companyassignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "async": "^3.2.4",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "joi": "^17.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "moment-timezone": "^0.5.39",
+    "njwt": "^1.2.0",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "promise": "^8.3.0",
+    "random-token": "^0.0.8",
+    "restify": "^7.7.0",
+    "restify-cors-middleware": "^1.1.1",
+    "restify-errors": "^8.0.2",
+    "restify-jwt-community": "^1.1.29",
+    "restify-router": "^0.6.2",
+    "urlencode": "^1.1.0"
+  }
+}
